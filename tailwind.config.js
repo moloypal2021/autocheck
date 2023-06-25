@@ -11,6 +11,7 @@ module.exports = {
         orange: {
           2: "#C83C2A",
         },
+        "dark-gray": "#727272",
       },
       maxWidth: {
         1360: "1360px",
@@ -18,12 +19,16 @@ module.exports = {
       container: {
         center: true,
       },
+      fontSize: {
+        10: "10px",
+      },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
       boxShadow: {
         1: "0px 1px 2px 0px rgba(0, 0, 0, 0.30), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)",
         2: "0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 0px 2px 0px rgba(0, 0, 0, 0.14)",
+        3: "0px 2.101351261138916px 2.101351261138916px 0px rgba(0, 0, 0, 0.12), 0px 0px 2.101351261138916px 0px rgba(0, 0, 0, 0.14)",
       },
     },
   },
