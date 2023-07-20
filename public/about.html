@@ -10,12 +10,12 @@
 
 <body>
     <!-- Header Start -->
-    <header class="container max-w-1360 px-4 lg:px-5 lg:bg-white bg-blue py-4 lg:py-8">
+    <header class="container px-4 py-4 max-w-1360 lg:px-5 lg:bg-white bg-blue lg:py-8">
         <div class="flex items-center justify-between">
             <a href="#"
-                class="md:text-2xl text-base sm:text-lg lg:text-3xl font-medium text-white lg:text-dark-blue inline-block">autocheck.</a>
+                class="inline-block text-base font-medium text-white md:text-2xl sm:text-lg lg:text-3xl lg:text-dark-blue">autocheck.</a>
 
-            <div class="hidden lg:flex items-center gap-5">
+            <div class="items-center hidden gap-5 lg:flex">
                 <a href="#"
                     class="text-base text-white font-medium bg-complementary px-14 py-2.5 rounded-md shadow-1 inline-block max-w-[203px] w-full text-center tracking-[0.5px]">Rezervuoti</a>
                 <a href="#"
@@ -32,14 +32,14 @@
     <section
         class="container max-w-1360 px-4 lg:px-5 pt-5 lg:pt-12 lg:min-h-[calc(100vh-176px)] min-h-[calc(100vh-215px)] mb-8">
         <h5 class="text-base sm:text-xl md:text-2xl lg:text-[32px] tracking-[0.5px] font-medium text-dark-blue mb-5">
-            Apie <span class=" hidden lg:inline">autocheck.</span></h5>
+            Apie <span class="hidden  lg:inline">autocheck.</span></h5>
 
-        <div class="grid lg:grid-cols-2 gap-5">
-            <div class="order-2 lg:order-1 max-w-2xl mx-auto">
+        <div class="grid gap-5 lg:grid-cols-2">
+            <div class="order-2 max-w-2xl mx-auto lg:order-1">
                 <img src="./assets/images/img-2.png" alt="" class="w-full aspect-[16/10.5]">
             </div>
             <div class="order-1 lg:order-2">
-                <p class="text-sm sm:text-base xl:text-xl font-light lg:font-normal text-dark-blue">Horem ipsum dolor
+                <p class="text-sm font-light sm:text-base xl:text-xl lg:font-normal text-dark-blue">Horem ipsum dolor
                     sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
                     dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed
                     risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad
@@ -58,11 +58,11 @@
 
     <!-- Footer Start -->
     <footer>
-        <div class="bg-grey/10 py-4 lg:pt-5 lg:pb-3">
-            <div class="container max-w-1360 px-4 lg:px-5">
-                <div class="flex justify-between items-center lg:flex-col lg:items-start gap-8">
-                    <h5 class="hidden lg:block text-xl text-dark-blue">Apie autocheck</h5>
-                    <h5 class="lg:hidden text-sm sm:text-lg text-dark-blue">Apie</h5>
+        <div class="py-4 bg-grey/10 lg:pt-5 lg:pb-3">
+            <div class="container px-4 max-w-1360 lg:px-5">
+                <div class="flex items-center justify-between gap-8 lg:flex-col lg:items-start">
+                    <h5 class="hidden text-xl lg:block text-dark-blue">Apie autocheck</h5>
+                    <h5 class="text-sm lg:hidden sm:text-lg text-dark-blue">Apie</h5>
 
                     <div class="flex items-center space-x-1.5 lg:space-x-3">
                         <a href="#" class="inline-block">
@@ -87,18 +87,16 @@
                     autocheck., 2023</p>
             </div>
         </div>
-
-
-        <div class="lg:hidden space-y-4 px-4 py-6">
-            <a href="#"
-                class="text-base text-white font-medium bg-complementary px-14 py-2 rounded-md block w-full text-center tracking-[0.5px]">Rezervuoti</a>
-            <a href="#"
-                class="text-base text-complementary px-9 rounded-md  block w-full text-center tracking-[0.5px]">Teikti
-                užklausą</a>
-        </div>
-
     </footer>
     <!-- Footer End -->
+
+    <div class="sticky inset-x-0 bottom-0 z-20 px-4 py-6 space-y-4 bg-white lg:hidden">
+        <a href="#"
+            class="text-base text-white font-medium bg-complementary px-14 py-2 rounded-md block w-full text-center tracking-[0.5px]">Rezervuoti</a>
+        <a href="#"
+            class="text-base text-complementary px-9 rounded-md  block w-full text-center tracking-[0.5px]">Teikti
+            užklausą</a>
+    </div>
 </body>
 
 </html>

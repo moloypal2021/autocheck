@@ -10,12 +10,12 @@
 
 <body>
     <!-- Header Start -->
-    <header class="container max-w-1360 px-4 lg:px-5 lg:bg-white bg-blue py-4 lg:py-8 hidden lg:block">
+    <header class="container hidden px-4 py-4 max-w-1360 lg:px-5 lg:bg-white bg-blue lg:py-8 lg:block">
         <div class="flex items-center justify-between">
             <a href="#"
-                class="md:text-2xl text-base sm:text-lg lg:text-3xl font-medium text-white lg:text-dark-blue inline-block">autocheck.</a>
+                class="inline-block text-base font-medium text-white md:text-2xl sm:text-lg lg:text-3xl lg:text-dark-blue">autocheck.</a>
 
-            <div class="hidden lg:flex items-center gap-5">
+            <div class="items-center hidden gap-5 lg:flex">
                 <a href="#"
                     class="text-base text-white font-medium bg-complementary px-14 py-2.5 rounded-md shadow-1 inline-block max-w-[203px] w-full text-center tracking-[0.5px]">Rezervuoti</a>
                 <a href="#"
@@ -33,7 +33,7 @@
         class="container max-w-1360 lg:px-5 lg:pt-12 lg:min-h-[calc(100vh-176px)] min-h-[calc(100vh-215px)] mb-8 lg:mb-14">
 
         <!-- Desktop Title -->
-        <div class="hidden lg:block mb-5">
+        <div class="hidden mb-5 lg:block">
             <div class="flex items-center space-x-5 mb-2.5">
                 <h3 class="text-[26px] font-medium text-dark-blue">JS Autoservisas</h3>
                 <div class="flex items-center">
@@ -135,30 +135,30 @@
         <!-- Gallary -->
         <div class="">
             <!-- Desktop Gallary -->
-            <div class="hidden lg:grid grid-cols-4 gap-5">
-                <div class="col-span-2 row-span-2 relative">
-                    <img src="./assets/images/img-3.png" alt="" class="w-full h-full object-cover rounded-md">
+            <div class="hidden grid-cols-4 gap-5 lg:grid">
+                <div class="relative col-span-2 row-span-2">
+                    <img src="./assets/images/img-3.png" alt="" class="object-cover w-full h-full rounded-md">
                     <img src="./assets/images/img-1.png" alt="" class="w-[90px] h-[90px] absolute left-5 bottom-5">
                 </div>
                 <div class="">
-                    <img src="./assets/images/img-3.png" alt="" class="w-full h-full object-cover rounded-md">
+                    <img src="./assets/images/img-3.png" alt="" class="object-cover w-full h-full rounded-md">
                 </div>
                 <div class="">
-                    <img src="./assets/images/img-3.png" alt="" class="w-full h-full object-cover rounded-md">
+                    <img src="./assets/images/img-3.png" alt="" class="object-cover w-full h-full rounded-md">
                 </div>
                 <div class="">
-                    <img src="./assets/images/img-3.png" alt="" class="w-full h-full object-cover rounded-md">
+                    <img src="./assets/images/img-3.png" alt="" class="object-cover w-full h-full rounded-md">
                 </div>
                 <div class="">
-                    <img src="./assets/images/img-3.png" alt="" class="w-full h-full object-cover rounded-md">
+                    <img src="./assets/images/img-3.png" alt="" class="object-cover w-full h-full rounded-md">
                 </div>
             </div>
 
             <!-- Mobile Galerry -->
             <div class="relative lg:hidden">
-                <img src="./assets/images/img-5.png" alt="" class="w-full h-full object-cover ">
+                <img src="./assets/images/img-5.png" alt="" class="object-cover w-full h-full ">
                 <img src="./assets/images/img-1.png" alt="" class="w-[50px] h-[50px] absolute left-3 bottom-3">
-                <button class="absolute top-3 left-3 z-10"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <button class="absolute z-10 top-3 left-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_87_4713" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
                             width="24" height="24">
@@ -176,8 +176,8 @@
 
 
         <!-- Mobile Title -->
-        <div class="lg:hidden p-4 pb-0">
-            <h5 class="text-xl font-medium text-dark-blue mb-2">JS Autoservisas</h5>
+        <div class="p-4 pb-0 lg:hidden">
+            <h5 class="mb-2 text-xl font-medium text-dark-blue">JS Autoservisas</h5>
             <div class="flex items-center space-x-1 mb-1.5">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <mask id="mask0_87_3714" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16"
@@ -244,7 +244,7 @@
                 </svg>
             </div>
 
-            <div class="flex items-center space-x-8 mb-5">
+            <div class="flex items-center mb-5 space-x-8">
                 <div class="flex items-center">
                     <p class="text-xl text-dark-blue">4.2</p>
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -262,7 +262,7 @@
                 </div>
 
                 <div class="flex items-center">
-                    <p class="text-xl mr-1">4.6</p>
+                    <p class="mr-1 text-xl">4.6</p>
                     <img src="./assets/images/google.png" alt="" class="w-3.5 mr-0.5">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -277,14 +277,14 @@
         </div>
 
 
-        <div class="mt-8 px-4 lg:px-0">
+        <div class="px-4 mt-8 lg:px-0">
             <h4 class="text-base sm:text-lg lg:text-[22px] font-medium lg:text-dark-blue mb-4 sm:mb-6 lg:mb-8">Paslaugos
             </h4>
 
             <div class="max-w-[883px] mb-12">
                 <div class="mb-3">
                     <!-- Title -->
-                    <div class="flex items-center justify-between lg:justify-normal cursor-pointer space-x-3">
+                    <div class="flex items-center justify-between space-x-3 cursor-pointer lg:justify-normal">
                         <p class="text-sm lg:text-base text-dark-blue">Važiuoklė</p>
 
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,10 +301,11 @@
                     </div>
 
                     <!-- Content -->
-                    <div class="pl-2 pt-6 pb-3 hidden space-y-4 lg:space-y-8">
+                    <div class="hidden pt-6 pb-3 pl-2 space-y-4 lg:space-y-8">
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -358,8 +359,9 @@
                         </div>
 
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -416,7 +418,7 @@
 
                 <div class="mb-3">
                     <!-- Title -->
-                    <div class="flex items-center justify-between lg:justify-normal cursor-pointer space-x-3">
+                    <div class="flex items-center justify-between space-x-3 cursor-pointer lg:justify-normal">
                         <p class="text-sm lg:text-base text-dark-blue">Važiuoklė</p>
 
                         <svg class="rotate-180" width="20" height="20" viewBox="0 0 20 20" fill="none"
@@ -434,10 +436,11 @@
                     </div>
 
                     <!-- Content -->
-                    <div class="pl-2 pt-6 pb-3 space-y-4 lg:space-y-8">
+                    <div class="pt-6 pb-3 pl-2 space-y-4 lg:space-y-8">
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -491,140 +494,9 @@
                         </div>
 
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
-                            <div class="">
-                                <div class="flex items-center whitespace-nowrap">
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="mask0_156_3885" style="mask-type:alpha" maskUnits="userSpaceOnUse"
-                                            x="0" y="0" width="16" height="16">
-                                            <rect width="16" height="16" fill="#D9D9D9" />
-                                        </mask>
-                                        <g mask="url(#mask0_156_3885)">
-                                            <path
-                                                d="M9.00041 13.3076C7.87733 13.3076 6.84314 12.9824 5.89784 12.332C4.95254 11.6815 4.28588 10.7418 3.89784 9.51272H1.69271C1.59784 9.51272 1.51857 9.48089 1.45489 9.41722C1.39121 9.35354 1.35938 9.27427 1.35938 9.17939C1.35938 9.08452 1.39121 9.00525 1.45489 8.94157C1.51857 8.87789 1.59784 8.84606 1.69271 8.84606H3.75169C3.72091 8.71529 3.69912 8.57854 3.68631 8.4358C3.67349 8.29307 3.66708 8.14777 3.66708 7.99991C3.66708 7.85204 3.66921 7.71315 3.67347 7.58324C3.67775 7.45333 3.69527 7.31017 3.72604 7.15376H1.69271C1.59784 7.15376 1.51857 7.12192 1.45489 7.05824C1.39121 6.99456 1.35938 6.91529 1.35938 6.82042C1.35938 6.72554 1.39121 6.64627 1.45489 6.58259C1.51857 6.51892 1.59784 6.48709 1.69271 6.48709H3.87219C4.23459 5.3264 4.87989 4.39947 5.80809 3.70631C6.7363 3.01315 7.80041 2.66657 9.00041 2.66657C9.59443 2.66657 10.1493 2.75632 10.6652 2.93581C11.181 3.11528 11.6863 3.38195 12.1812 3.73581C12.2786 3.80931 12.3314 3.8999 12.3395 4.00759C12.3476 4.11529 12.3085 4.2123 12.2222 4.29862C12.1658 4.35503 12.0946 4.39008 12.0087 4.40376C11.9228 4.41743 11.841 4.39863 11.7632 4.34734C11.3615 4.05588 10.9269 3.82682 10.4594 3.66016C9.99185 3.49349 9.50553 3.41016 9.00041 3.41016C7.96195 3.41016 7.05619 3.70738 6.28311 4.30182C5.51003 4.89627 4.97563 5.62469 4.67989 6.48709H9.05169C9.14656 6.48709 9.22583 6.51892 9.28951 6.58259C9.35319 6.64627 9.38503 6.72554 9.38503 6.82042C9.38503 6.91529 9.35319 6.99456 9.28951 7.05824C9.22583 7.12192 9.14656 7.15376 9.05169 7.15376H4.50297C4.45511 7.31017 4.42776 7.45333 4.42092 7.58324C4.41408 7.71315 4.41066 7.85204 4.41066 7.99991C4.41066 8.14777 4.41835 8.29521 4.43374 8.44221C4.44913 8.58922 4.47221 8.72383 4.50297 8.84606H9.05169C9.14656 8.84606 9.22583 8.87789 9.28951 8.94157C9.35319 9.00525 9.38503 9.08452 9.38503 9.17939C9.38503 9.27427 9.35319 9.35354 9.28951 9.41722C9.22583 9.48089 9.14656 9.51272 9.05169 9.51272H4.69272C5.02264 10.4777 5.59336 11.2275 6.40489 11.7621C7.21644 12.2967 8.08161 12.564 9.00041 12.564C9.50297 12.564 9.98075 12.4892 10.4337 12.3397C10.8867 12.1901 11.3043 11.9867 11.6863 11.7294C11.7726 11.6781 11.8624 11.6565 11.9555 11.6647C12.0487 11.6728 12.129 11.7106 12.1966 11.7781C12.2829 11.8644 12.3177 11.9614 12.3011 12.0691C12.2844 12.1768 12.2316 12.2632 12.1427 12.3281C11.7162 12.6136 11.2387 12.8482 10.71 13.032C10.1814 13.2157 9.61152 13.3076 9.00041 13.3076Z"
-                                                fill="#112F56" />
-                                        </g>
-                                    </svg>
-                                    <span class="text-sm lg:text-base text-dark-blue">180-200 EUR</span>
-                                </div>
-
-                                <div class="flex items-center whitespace-nowrap">
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="mask0_156_3891" style="mask-type:alpha" maskUnits="userSpaceOnUse"
-                                            x="0" y="0" width="16" height="16">
-                                            <rect width="16" height="16" fill="#D9D9D9" />
-                                        </mask>
-                                        <g mask="url(#mask0_156_3891)">
-                                            <path
-                                                d="M5.53885 13.3333H10.4619V11.3333C10.4619 10.5829 10.2307 9.92522 9.76833 9.36025C9.30594 8.79529 8.71663 8.51282 8.00038 8.51282C7.28414 8.51282 6.69482 8.79529 6.23243 9.36025C5.77004 9.92522 5.53885 10.5829 5.53885 11.3333V13.3333ZM8.00038 7.48718C8.71663 7.48718 9.30594 7.20471 9.76833 6.63975C10.2307 6.07478 10.4619 5.41709 10.4619 4.66667V2.66667H5.53885V4.66667C5.53885 5.41709 5.77004 6.07478 6.23243 6.63975C6.69482 7.20471 7.28414 7.48718 8.00038 7.48718ZM12.2055 14H3.79525C3.7008 14 3.62164 13.968 3.55775 13.904C3.49386 13.8401 3.46191 13.7608 3.46191 13.6662C3.46191 13.5717 3.49386 13.4925 3.55775 13.4289C3.62164 13.3652 3.7008 13.3333 3.79525 13.3333H4.87216V11.3333C4.87216 10.5615 5.08605 9.86561 5.51383 9.24552C5.94161 8.62543 6.51575 8.21026 7.23626 8C6.51575 7.78974 5.94161 7.37457 5.51383 6.75448C5.08605 6.13439 4.87216 5.43846 4.87216 4.66667V2.66667H3.79525C3.7008 2.66667 3.62164 2.63468 3.55775 2.5707C3.49386 2.50672 3.46191 2.42745 3.46191 2.33288C3.46191 2.23831 3.49386 2.15918 3.55775 2.09552C3.62164 2.03184 3.7008 2 3.79525 2H12.2055C12.3 2 12.3791 2.03199 12.443 2.09597C12.5069 2.15993 12.5388 2.23921 12.5388 2.33378C12.5388 2.42835 12.5069 2.50747 12.443 2.57115C12.3791 2.63483 12.3 2.66667 12.2055 2.66667H11.1286V4.66667C11.1286 5.43846 10.9147 6.13439 10.4869 6.75448C10.0592 7.37457 9.48501 7.78974 8.7645 8C9.48501 8.21026 10.0592 8.62543 10.4869 9.24552C10.9147 9.86561 11.1286 10.5615 11.1286 11.3333V13.3333H12.2055C12.3 13.3333 12.3791 13.3653 12.443 13.4293C12.5069 13.4933 12.5388 13.5726 12.5388 13.6671C12.5388 13.7617 12.5069 13.8408 12.443 13.9045C12.3791 13.9682 12.3 14 12.2055 14Z"
-                                                fill="#112F56" />
-                                        </g>
-                                    </svg>
-
-                                    <span class="text-sm lg:text-base text-dark-blue">2-4 d.d.</span>
-                                </div>
-                            </div>
-
-                            <button class="">
-                                <svg class="w-9 lg:w-12" viewBox="0 0 48 48" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="48" height="48" rx="6.66667" fill="#B37A1E" />
-                                    <mask id="mask0_156_3908" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8"
-                                        y="7" width="33" height="33">
-                                        <rect x="8.40625" y="7.45345" width="32" height="32" fill="#D9D9D9" />
-                                    </mask>
-                                    <g mask="url(#mask0_156_3908)">
-                                        <path
-                                            d="M23.0059 29.0277L28.1777 23.8559C28.3076 23.726 28.4632 23.6568 28.6444 23.6482C28.8256 23.6396 28.9897 23.7089 29.1367 23.8559C29.2837 24.0029 29.3572 24.1627 29.3572 24.3354C29.3572 24.508 29.2837 24.6679 29.1367 24.8149L23.7598 30.1918C23.5444 30.4072 23.2931 30.5149 23.0059 30.5149C22.7187 30.5149 22.4675 30.4072 22.2521 30.1918L19.6752 27.6149C19.5452 27.485 19.476 27.3294 19.4675 27.1482C19.4589 26.967 19.5281 26.8029 19.6752 26.6559C19.8222 26.5089 19.982 26.4354 20.1547 26.4354C20.3273 26.4354 20.4871 26.5089 20.6341 26.6559L23.0059 29.0277ZM15.8931 35.4533C15.2794 35.4533 14.767 35.2478 14.3559 34.8367C13.9448 34.4256 13.7393 33.9132 13.7393 33.2995V16.2738C13.7393 15.6602 13.9448 15.1478 14.3559 14.7367C14.767 14.3256 15.2794 14.12 15.8931 14.12H18.2521V11.8636C18.2521 11.6568 18.32 11.4854 18.4559 11.3495C18.5918 11.2136 18.7632 11.1456 18.97 11.1456C19.1769 11.1456 19.3482 11.2136 19.4841 11.3495C19.62 11.4854 19.688 11.6568 19.688 11.8636V14.12H29.2264V11.8123C29.2264 11.6226 29.2901 11.464 29.4175 11.3367C29.5448 11.2093 29.7034 11.1456 29.8931 11.1456C30.0829 11.1456 30.2414 11.2093 30.3688 11.3367C30.4961 11.464 30.5598 11.6226 30.5598 11.8123V14.12H32.9188C33.5324 14.12 34.0448 14.3256 34.4559 14.7367C34.867 15.1478 35.0726 15.6602 35.0726 16.2738V33.2995C35.0726 33.9132 34.867 34.4256 34.4559 34.8367C34.0448 35.2478 33.5324 35.4533 32.9188 35.4533H15.8931ZM15.8931 34.12H32.9188C33.1239 34.12 33.3119 34.0345 33.4829 33.8636C33.6538 33.6926 33.7393 33.5046 33.7393 33.2995V21.6072H15.0726V33.2995C15.0726 33.5046 15.1581 33.6926 15.329 33.8636C15.4999 34.0345 15.688 34.12 15.8931 34.12ZM15.0726 20.2738H33.7393V16.2738C33.7393 16.0687 33.6538 15.8807 33.4829 15.7097C33.3119 15.5388 33.1239 15.4533 32.9188 15.4533H15.8931C15.688 15.4533 15.4999 15.5388 15.329 15.7097C15.1581 15.8807 15.0726 16.0687 15.0726 16.2738V20.2738Z"
-                                            fill="white" />
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <!-- Title -->
-                    <div class="flex items-center justify-between lg:justify-normal cursor-pointer space-x-3">
-                        <p class="text-sm lg:text-base text-dark-blue">Važiuoklė</p>
-
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="mask0_156_3867" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
-                                width="20" height="20">
-                                <rect x="20" width="20" height="20" transform="rotate(90 20 0)" fill="#D9D9D9" />
-                            </mask>
-                            <g mask="url(#mask0_156_3867)">
-                                <path
-                                    d="M2.6891 6.23071C2.81196 6.10785 2.95967 6.04642 3.13221 6.04642C3.30475 6.04642 3.45245 6.10785 3.57531 6.23071L10 12.6554L16.4455 6.20988C16.5652 6.09021 16.7067 6.03038 16.8702 6.03038C17.0337 6.03038 17.1822 6.09716 17.3157 6.23071C17.4386 6.35357 17.5 6.50128 17.5 6.67382C17.5 6.84636 17.4386 6.99406 17.3157 7.11692L10.4711 13.9567C10.3985 14.0293 10.3243 14.0803 10.2484 14.1097C10.1725 14.1391 10.0897 14.1538 10 14.1538C9.91025 14.1538 9.82745 14.1391 9.7516 14.1097C9.67574 14.0803 9.60149 14.0293 9.52885 13.9567L2.66827 7.09609C2.5486 6.97644 2.48877 6.83568 2.48877 6.67382C2.48877 6.51196 2.55555 6.36426 2.6891 6.23071Z"
-                                    fill="#112F56" />
-                            </g>
-                        </svg>
-                    </div>
-
-                    <!-- Content -->
-                    <div class="pl-2 pt-6 pb-3 hidden space-y-4 lg:space-y-8">
-                        <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
-                            <div class="">
-                                <div class="flex items-center whitespace-nowrap">
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="mask0_156_3885" style="mask-type:alpha" maskUnits="userSpaceOnUse"
-                                            x="0" y="0" width="16" height="16">
-                                            <rect width="16" height="16" fill="#D9D9D9" />
-                                        </mask>
-                                        <g mask="url(#mask0_156_3885)">
-                                            <path
-                                                d="M9.00041 13.3076C7.87733 13.3076 6.84314 12.9824 5.89784 12.332C4.95254 11.6815 4.28588 10.7418 3.89784 9.51272H1.69271C1.59784 9.51272 1.51857 9.48089 1.45489 9.41722C1.39121 9.35354 1.35938 9.27427 1.35938 9.17939C1.35938 9.08452 1.39121 9.00525 1.45489 8.94157C1.51857 8.87789 1.59784 8.84606 1.69271 8.84606H3.75169C3.72091 8.71529 3.69912 8.57854 3.68631 8.4358C3.67349 8.29307 3.66708 8.14777 3.66708 7.99991C3.66708 7.85204 3.66921 7.71315 3.67347 7.58324C3.67775 7.45333 3.69527 7.31017 3.72604 7.15376H1.69271C1.59784 7.15376 1.51857 7.12192 1.45489 7.05824C1.39121 6.99456 1.35938 6.91529 1.35938 6.82042C1.35938 6.72554 1.39121 6.64627 1.45489 6.58259C1.51857 6.51892 1.59784 6.48709 1.69271 6.48709H3.87219C4.23459 5.3264 4.87989 4.39947 5.80809 3.70631C6.7363 3.01315 7.80041 2.66657 9.00041 2.66657C9.59443 2.66657 10.1493 2.75632 10.6652 2.93581C11.181 3.11528 11.6863 3.38195 12.1812 3.73581C12.2786 3.80931 12.3314 3.8999 12.3395 4.00759C12.3476 4.11529 12.3085 4.2123 12.2222 4.29862C12.1658 4.35503 12.0946 4.39008 12.0087 4.40376C11.9228 4.41743 11.841 4.39863 11.7632 4.34734C11.3615 4.05588 10.9269 3.82682 10.4594 3.66016C9.99185 3.49349 9.50553 3.41016 9.00041 3.41016C7.96195 3.41016 7.05619 3.70738 6.28311 4.30182C5.51003 4.89627 4.97563 5.62469 4.67989 6.48709H9.05169C9.14656 6.48709 9.22583 6.51892 9.28951 6.58259C9.35319 6.64627 9.38503 6.72554 9.38503 6.82042C9.38503 6.91529 9.35319 6.99456 9.28951 7.05824C9.22583 7.12192 9.14656 7.15376 9.05169 7.15376H4.50297C4.45511 7.31017 4.42776 7.45333 4.42092 7.58324C4.41408 7.71315 4.41066 7.85204 4.41066 7.99991C4.41066 8.14777 4.41835 8.29521 4.43374 8.44221C4.44913 8.58922 4.47221 8.72383 4.50297 8.84606H9.05169C9.14656 8.84606 9.22583 8.87789 9.28951 8.94157C9.35319 9.00525 9.38503 9.08452 9.38503 9.17939C9.38503 9.27427 9.35319 9.35354 9.28951 9.41722C9.22583 9.48089 9.14656 9.51272 9.05169 9.51272H4.69272C5.02264 10.4777 5.59336 11.2275 6.40489 11.7621C7.21644 12.2967 8.08161 12.564 9.00041 12.564C9.50297 12.564 9.98075 12.4892 10.4337 12.3397C10.8867 12.1901 11.3043 11.9867 11.6863 11.7294C11.7726 11.6781 11.8624 11.6565 11.9555 11.6647C12.0487 11.6728 12.129 11.7106 12.1966 11.7781C12.2829 11.8644 12.3177 11.9614 12.3011 12.0691C12.2844 12.1768 12.2316 12.2632 12.1427 12.3281C11.7162 12.6136 11.2387 12.8482 10.71 13.032C10.1814 13.2157 9.61152 13.3076 9.00041 13.3076Z"
-                                                fill="#112F56" />
-                                        </g>
-                                    </svg>
-                                    <span class="text-sm lg:text-base text-dark-blue">180-200 EUR</span>
-                                </div>
-
-                                <div class="flex items-center whitespace-nowrap">
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="mask0_156_3891" style="mask-type:alpha" maskUnits="userSpaceOnUse"
-                                            x="0" y="0" width="16" height="16">
-                                            <rect width="16" height="16" fill="#D9D9D9" />
-                                        </mask>
-                                        <g mask="url(#mask0_156_3891)">
-                                            <path
-                                                d="M5.53885 13.3333H10.4619V11.3333C10.4619 10.5829 10.2307 9.92522 9.76833 9.36025C9.30594 8.79529 8.71663 8.51282 8.00038 8.51282C7.28414 8.51282 6.69482 8.79529 6.23243 9.36025C5.77004 9.92522 5.53885 10.5829 5.53885 11.3333V13.3333ZM8.00038 7.48718C8.71663 7.48718 9.30594 7.20471 9.76833 6.63975C10.2307 6.07478 10.4619 5.41709 10.4619 4.66667V2.66667H5.53885V4.66667C5.53885 5.41709 5.77004 6.07478 6.23243 6.63975C6.69482 7.20471 7.28414 7.48718 8.00038 7.48718ZM12.2055 14H3.79525C3.7008 14 3.62164 13.968 3.55775 13.904C3.49386 13.8401 3.46191 13.7608 3.46191 13.6662C3.46191 13.5717 3.49386 13.4925 3.55775 13.4289C3.62164 13.3652 3.7008 13.3333 3.79525 13.3333H4.87216V11.3333C4.87216 10.5615 5.08605 9.86561 5.51383 9.24552C5.94161 8.62543 6.51575 8.21026 7.23626 8C6.51575 7.78974 5.94161 7.37457 5.51383 6.75448C5.08605 6.13439 4.87216 5.43846 4.87216 4.66667V2.66667H3.79525C3.7008 2.66667 3.62164 2.63468 3.55775 2.5707C3.49386 2.50672 3.46191 2.42745 3.46191 2.33288C3.46191 2.23831 3.49386 2.15918 3.55775 2.09552C3.62164 2.03184 3.7008 2 3.79525 2H12.2055C12.3 2 12.3791 2.03199 12.443 2.09597C12.5069 2.15993 12.5388 2.23921 12.5388 2.33378C12.5388 2.42835 12.5069 2.50747 12.443 2.57115C12.3791 2.63483 12.3 2.66667 12.2055 2.66667H11.1286V4.66667C11.1286 5.43846 10.9147 6.13439 10.4869 6.75448C10.0592 7.37457 9.48501 7.78974 8.7645 8C9.48501 8.21026 10.0592 8.62543 10.4869 9.24552C10.9147 9.86561 11.1286 10.5615 11.1286 11.3333V13.3333H12.2055C12.3 13.3333 12.3791 13.3653 12.443 13.4293C12.5069 13.4933 12.5388 13.5726 12.5388 13.6671C12.5388 13.7617 12.5069 13.8408 12.443 13.9045C12.3791 13.9682 12.3 14 12.2055 14Z"
-                                                fill="#112F56" />
-                                        </g>
-                                    </svg>
-
-                                    <span class="text-sm lg:text-base text-dark-blue">2-4 d.d.</span>
-                                </div>
-                            </div>
-
-                            <button class="">
-                                <svg class="w-9 lg:w-12" viewBox="0 0 48 48" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="48" height="48" rx="6.66667" fill="#B37A1E" />
-                                    <mask id="mask0_156_3908" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8"
-                                        y="7" width="33" height="33">
-                                        <rect x="8.40625" y="7.45345" width="32" height="32" fill="#D9D9D9" />
-                                    </mask>
-                                    <g mask="url(#mask0_156_3908)">
-                                        <path
-                                            d="M23.0059 29.0277L28.1777 23.8559C28.3076 23.726 28.4632 23.6568 28.6444 23.6482C28.8256 23.6396 28.9897 23.7089 29.1367 23.8559C29.2837 24.0029 29.3572 24.1627 29.3572 24.3354C29.3572 24.508 29.2837 24.6679 29.1367 24.8149L23.7598 30.1918C23.5444 30.4072 23.2931 30.5149 23.0059 30.5149C22.7187 30.5149 22.4675 30.4072 22.2521 30.1918L19.6752 27.6149C19.5452 27.485 19.476 27.3294 19.4675 27.1482C19.4589 26.967 19.5281 26.8029 19.6752 26.6559C19.8222 26.5089 19.982 26.4354 20.1547 26.4354C20.3273 26.4354 20.4871 26.5089 20.6341 26.6559L23.0059 29.0277ZM15.8931 35.4533C15.2794 35.4533 14.767 35.2478 14.3559 34.8367C13.9448 34.4256 13.7393 33.9132 13.7393 33.2995V16.2738C13.7393 15.6602 13.9448 15.1478 14.3559 14.7367C14.767 14.3256 15.2794 14.12 15.8931 14.12H18.2521V11.8636C18.2521 11.6568 18.32 11.4854 18.4559 11.3495C18.5918 11.2136 18.7632 11.1456 18.97 11.1456C19.1769 11.1456 19.3482 11.2136 19.4841 11.3495C19.62 11.4854 19.688 11.6568 19.688 11.8636V14.12H29.2264V11.8123C29.2264 11.6226 29.2901 11.464 29.4175 11.3367C29.5448 11.2093 29.7034 11.1456 29.8931 11.1456C30.0829 11.1456 30.2414 11.2093 30.3688 11.3367C30.4961 11.464 30.5598 11.6226 30.5598 11.8123V14.12H32.9188C33.5324 14.12 34.0448 14.3256 34.4559 14.7367C34.867 15.1478 35.0726 15.6602 35.0726 16.2738V33.2995C35.0726 33.9132 34.867 34.4256 34.4559 34.8367C34.0448 35.2478 33.5324 35.4533 32.9188 35.4533H15.8931ZM15.8931 34.12H32.9188C33.1239 34.12 33.3119 34.0345 33.4829 33.8636C33.6538 33.6926 33.7393 33.5046 33.7393 33.2995V21.6072H15.0726V33.2995C15.0726 33.5046 15.1581 33.6926 15.329 33.8636C15.4999 34.0345 15.688 34.12 15.8931 34.12ZM15.0726 20.2738H33.7393V16.2738C33.7393 16.0687 33.6538 15.8807 33.4829 15.7097C33.3119 15.5388 33.1239 15.4533 32.9188 15.4533H15.8931C15.688 15.4533 15.4999 15.5388 15.329 15.7097C15.1581 15.8807 15.0726 16.0687 15.0726 16.2738V20.2738Z"
-                                            fill="white" />
-                                    </g>
-                                </svg>
-                            </button>
-                        </div>
-
-                        <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -681,7 +553,7 @@
 
                 <div class="mb-3">
                     <!-- Title -->
-                    <div class="flex items-center justify-between lg:justify-normal cursor-pointer space-x-3">
+                    <div class="flex items-center justify-between space-x-3 cursor-pointer lg:justify-normal">
                         <p class="text-sm lg:text-base text-dark-blue">Važiuoklė</p>
 
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -698,10 +570,11 @@
                     </div>
 
                     <!-- Content -->
-                    <div class="pl-2 pt-6 pb-3 hidden space-y-4 lg:space-y-8">
+                    <div class="hidden pt-6 pb-3 pl-2 space-y-4 lg:space-y-8">
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -755,8 +628,9 @@
                         </div>
 
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -813,7 +687,7 @@
 
                 <div class="mb-3">
                     <!-- Title -->
-                    <div class="flex items-center justify-between lg:justify-normal cursor-pointer space-x-3">
+                    <div class="flex items-center justify-between space-x-3 cursor-pointer lg:justify-normal">
                         <p class="text-sm lg:text-base text-dark-blue">Važiuoklė</p>
 
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -830,10 +704,11 @@
                     </div>
 
                     <!-- Content -->
-                    <div class="pl-2 pt-6 pb-3 hidden space-y-4 lg:space-y-8">
+                    <div class="hidden pt-6 pb-3 pl-2 space-y-4 lg:space-y-8">
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -887,8 +762,143 @@
                         </div>
 
                         <div class="flex items-center justify-between space-x-2">
-                            <p class="text-sm lg:text-base font-light text-dark-blue">Padangų keitimasPadangų
-                                <br> keitimasPadangų keitimas</p>
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
+                            <div class="">
+                                <div class="flex items-center whitespace-nowrap">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="mask0_156_3885" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="16" height="16">
+                                            <rect width="16" height="16" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_156_3885)">
+                                            <path
+                                                d="M9.00041 13.3076C7.87733 13.3076 6.84314 12.9824 5.89784 12.332C4.95254 11.6815 4.28588 10.7418 3.89784 9.51272H1.69271C1.59784 9.51272 1.51857 9.48089 1.45489 9.41722C1.39121 9.35354 1.35938 9.27427 1.35938 9.17939C1.35938 9.08452 1.39121 9.00525 1.45489 8.94157C1.51857 8.87789 1.59784 8.84606 1.69271 8.84606H3.75169C3.72091 8.71529 3.69912 8.57854 3.68631 8.4358C3.67349 8.29307 3.66708 8.14777 3.66708 7.99991C3.66708 7.85204 3.66921 7.71315 3.67347 7.58324C3.67775 7.45333 3.69527 7.31017 3.72604 7.15376H1.69271C1.59784 7.15376 1.51857 7.12192 1.45489 7.05824C1.39121 6.99456 1.35938 6.91529 1.35938 6.82042C1.35938 6.72554 1.39121 6.64627 1.45489 6.58259C1.51857 6.51892 1.59784 6.48709 1.69271 6.48709H3.87219C4.23459 5.3264 4.87989 4.39947 5.80809 3.70631C6.7363 3.01315 7.80041 2.66657 9.00041 2.66657C9.59443 2.66657 10.1493 2.75632 10.6652 2.93581C11.181 3.11528 11.6863 3.38195 12.1812 3.73581C12.2786 3.80931 12.3314 3.8999 12.3395 4.00759C12.3476 4.11529 12.3085 4.2123 12.2222 4.29862C12.1658 4.35503 12.0946 4.39008 12.0087 4.40376C11.9228 4.41743 11.841 4.39863 11.7632 4.34734C11.3615 4.05588 10.9269 3.82682 10.4594 3.66016C9.99185 3.49349 9.50553 3.41016 9.00041 3.41016C7.96195 3.41016 7.05619 3.70738 6.28311 4.30182C5.51003 4.89627 4.97563 5.62469 4.67989 6.48709H9.05169C9.14656 6.48709 9.22583 6.51892 9.28951 6.58259C9.35319 6.64627 9.38503 6.72554 9.38503 6.82042C9.38503 6.91529 9.35319 6.99456 9.28951 7.05824C9.22583 7.12192 9.14656 7.15376 9.05169 7.15376H4.50297C4.45511 7.31017 4.42776 7.45333 4.42092 7.58324C4.41408 7.71315 4.41066 7.85204 4.41066 7.99991C4.41066 8.14777 4.41835 8.29521 4.43374 8.44221C4.44913 8.58922 4.47221 8.72383 4.50297 8.84606H9.05169C9.14656 8.84606 9.22583 8.87789 9.28951 8.94157C9.35319 9.00525 9.38503 9.08452 9.38503 9.17939C9.38503 9.27427 9.35319 9.35354 9.28951 9.41722C9.22583 9.48089 9.14656 9.51272 9.05169 9.51272H4.69272C5.02264 10.4777 5.59336 11.2275 6.40489 11.7621C7.21644 12.2967 8.08161 12.564 9.00041 12.564C9.50297 12.564 9.98075 12.4892 10.4337 12.3397C10.8867 12.1901 11.3043 11.9867 11.6863 11.7294C11.7726 11.6781 11.8624 11.6565 11.9555 11.6647C12.0487 11.6728 12.129 11.7106 12.1966 11.7781C12.2829 11.8644 12.3177 11.9614 12.3011 12.0691C12.2844 12.1768 12.2316 12.2632 12.1427 12.3281C11.7162 12.6136 11.2387 12.8482 10.71 13.032C10.1814 13.2157 9.61152 13.3076 9.00041 13.3076Z"
+                                                fill="#112F56" />
+                                        </g>
+                                    </svg>
+                                    <span class="text-sm lg:text-base text-dark-blue">180-200 EUR</span>
+                                </div>
+
+                                <div class="flex items-center whitespace-nowrap">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="mask0_156_3891" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="16" height="16">
+                                            <rect width="16" height="16" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_156_3891)">
+                                            <path
+                                                d="M5.53885 13.3333H10.4619V11.3333C10.4619 10.5829 10.2307 9.92522 9.76833 9.36025C9.30594 8.79529 8.71663 8.51282 8.00038 8.51282C7.28414 8.51282 6.69482 8.79529 6.23243 9.36025C5.77004 9.92522 5.53885 10.5829 5.53885 11.3333V13.3333ZM8.00038 7.48718C8.71663 7.48718 9.30594 7.20471 9.76833 6.63975C10.2307 6.07478 10.4619 5.41709 10.4619 4.66667V2.66667H5.53885V4.66667C5.53885 5.41709 5.77004 6.07478 6.23243 6.63975C6.69482 7.20471 7.28414 7.48718 8.00038 7.48718ZM12.2055 14H3.79525C3.7008 14 3.62164 13.968 3.55775 13.904C3.49386 13.8401 3.46191 13.7608 3.46191 13.6662C3.46191 13.5717 3.49386 13.4925 3.55775 13.4289C3.62164 13.3652 3.7008 13.3333 3.79525 13.3333H4.87216V11.3333C4.87216 10.5615 5.08605 9.86561 5.51383 9.24552C5.94161 8.62543 6.51575 8.21026 7.23626 8C6.51575 7.78974 5.94161 7.37457 5.51383 6.75448C5.08605 6.13439 4.87216 5.43846 4.87216 4.66667V2.66667H3.79525C3.7008 2.66667 3.62164 2.63468 3.55775 2.5707C3.49386 2.50672 3.46191 2.42745 3.46191 2.33288C3.46191 2.23831 3.49386 2.15918 3.55775 2.09552C3.62164 2.03184 3.7008 2 3.79525 2H12.2055C12.3 2 12.3791 2.03199 12.443 2.09597C12.5069 2.15993 12.5388 2.23921 12.5388 2.33378C12.5388 2.42835 12.5069 2.50747 12.443 2.57115C12.3791 2.63483 12.3 2.66667 12.2055 2.66667H11.1286V4.66667C11.1286 5.43846 10.9147 6.13439 10.4869 6.75448C10.0592 7.37457 9.48501 7.78974 8.7645 8C9.48501 8.21026 10.0592 8.62543 10.4869 9.24552C10.9147 9.86561 11.1286 10.5615 11.1286 11.3333V13.3333H12.2055C12.3 13.3333 12.3791 13.3653 12.443 13.4293C12.5069 13.4933 12.5388 13.5726 12.5388 13.6671C12.5388 13.7617 12.5069 13.8408 12.443 13.9045C12.3791 13.9682 12.3 14 12.2055 14Z"
+                                                fill="#112F56" />
+                                        </g>
+                                    </svg>
+
+                                    <span class="text-sm lg:text-base text-dark-blue">2-4 d.d.</span>
+                                </div>
+                            </div>
+
+                            <button class="">
+                                <svg class="w-9 lg:w-12" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" rx="6.66667" fill="#B37A1E" />
+                                    <mask id="mask0_156_3908" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8"
+                                        y="7" width="33" height="33">
+                                        <rect x="8.40625" y="7.45345" width="32" height="32" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_156_3908)">
+                                        <path
+                                            d="M23.0059 29.0277L28.1777 23.8559C28.3076 23.726 28.4632 23.6568 28.6444 23.6482C28.8256 23.6396 28.9897 23.7089 29.1367 23.8559C29.2837 24.0029 29.3572 24.1627 29.3572 24.3354C29.3572 24.508 29.2837 24.6679 29.1367 24.8149L23.7598 30.1918C23.5444 30.4072 23.2931 30.5149 23.0059 30.5149C22.7187 30.5149 22.4675 30.4072 22.2521 30.1918L19.6752 27.6149C19.5452 27.485 19.476 27.3294 19.4675 27.1482C19.4589 26.967 19.5281 26.8029 19.6752 26.6559C19.8222 26.5089 19.982 26.4354 20.1547 26.4354C20.3273 26.4354 20.4871 26.5089 20.6341 26.6559L23.0059 29.0277ZM15.8931 35.4533C15.2794 35.4533 14.767 35.2478 14.3559 34.8367C13.9448 34.4256 13.7393 33.9132 13.7393 33.2995V16.2738C13.7393 15.6602 13.9448 15.1478 14.3559 14.7367C14.767 14.3256 15.2794 14.12 15.8931 14.12H18.2521V11.8636C18.2521 11.6568 18.32 11.4854 18.4559 11.3495C18.5918 11.2136 18.7632 11.1456 18.97 11.1456C19.1769 11.1456 19.3482 11.2136 19.4841 11.3495C19.62 11.4854 19.688 11.6568 19.688 11.8636V14.12H29.2264V11.8123C29.2264 11.6226 29.2901 11.464 29.4175 11.3367C29.5448 11.2093 29.7034 11.1456 29.8931 11.1456C30.0829 11.1456 30.2414 11.2093 30.3688 11.3367C30.4961 11.464 30.5598 11.6226 30.5598 11.8123V14.12H32.9188C33.5324 14.12 34.0448 14.3256 34.4559 14.7367C34.867 15.1478 35.0726 15.6602 35.0726 16.2738V33.2995C35.0726 33.9132 34.867 34.4256 34.4559 34.8367C34.0448 35.2478 33.5324 35.4533 32.9188 35.4533H15.8931ZM15.8931 34.12H32.9188C33.1239 34.12 33.3119 34.0345 33.4829 33.8636C33.6538 33.6926 33.7393 33.5046 33.7393 33.2995V21.6072H15.0726V33.2995C15.0726 33.5046 15.1581 33.6926 15.329 33.8636C15.4999 34.0345 15.688 34.12 15.8931 34.12ZM15.0726 20.2738H33.7393V16.2738C33.7393 16.0687 33.6538 15.8807 33.4829 15.7097C33.3119 15.5388 33.1239 15.4533 32.9188 15.4533H15.8931C15.688 15.4533 15.4999 15.5388 15.329 15.7097C15.1581 15.8807 15.0726 16.0687 15.0726 16.2738V20.2738Z"
+                                            fill="white" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <!-- Title -->
+                    <div class="flex items-center justify-between space-x-3 cursor-pointer lg:justify-normal">
+                        <p class="text-sm lg:text-base text-dark-blue">Važiuoklė</p>
+
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0_156_3867" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                width="20" height="20">
+                                <rect x="20" width="20" height="20" transform="rotate(90 20 0)" fill="#D9D9D9" />
+                            </mask>
+                            <g mask="url(#mask0_156_3867)">
+                                <path
+                                    d="M2.6891 6.23071C2.81196 6.10785 2.95967 6.04642 3.13221 6.04642C3.30475 6.04642 3.45245 6.10785 3.57531 6.23071L10 12.6554L16.4455 6.20988C16.5652 6.09021 16.7067 6.03038 16.8702 6.03038C17.0337 6.03038 17.1822 6.09716 17.3157 6.23071C17.4386 6.35357 17.5 6.50128 17.5 6.67382C17.5 6.84636 17.4386 6.99406 17.3157 7.11692L10.4711 13.9567C10.3985 14.0293 10.3243 14.0803 10.2484 14.1097C10.1725 14.1391 10.0897 14.1538 10 14.1538C9.91025 14.1538 9.82745 14.1391 9.7516 14.1097C9.67574 14.0803 9.60149 14.0293 9.52885 13.9567L2.66827 7.09609C2.5486 6.97644 2.48877 6.83568 2.48877 6.67382C2.48877 6.51196 2.55555 6.36426 2.6891 6.23071Z"
+                                    fill="#112F56" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="hidden pt-6 pb-3 pl-2 space-y-4 lg:space-y-8">
+                        <div class="flex items-center justify-between space-x-2">
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
+                            <div class="">
+                                <div class="flex items-center whitespace-nowrap">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="mask0_156_3885" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="16" height="16">
+                                            <rect width="16" height="16" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_156_3885)">
+                                            <path
+                                                d="M9.00041 13.3076C7.87733 13.3076 6.84314 12.9824 5.89784 12.332C4.95254 11.6815 4.28588 10.7418 3.89784 9.51272H1.69271C1.59784 9.51272 1.51857 9.48089 1.45489 9.41722C1.39121 9.35354 1.35938 9.27427 1.35938 9.17939C1.35938 9.08452 1.39121 9.00525 1.45489 8.94157C1.51857 8.87789 1.59784 8.84606 1.69271 8.84606H3.75169C3.72091 8.71529 3.69912 8.57854 3.68631 8.4358C3.67349 8.29307 3.66708 8.14777 3.66708 7.99991C3.66708 7.85204 3.66921 7.71315 3.67347 7.58324C3.67775 7.45333 3.69527 7.31017 3.72604 7.15376H1.69271C1.59784 7.15376 1.51857 7.12192 1.45489 7.05824C1.39121 6.99456 1.35938 6.91529 1.35938 6.82042C1.35938 6.72554 1.39121 6.64627 1.45489 6.58259C1.51857 6.51892 1.59784 6.48709 1.69271 6.48709H3.87219C4.23459 5.3264 4.87989 4.39947 5.80809 3.70631C6.7363 3.01315 7.80041 2.66657 9.00041 2.66657C9.59443 2.66657 10.1493 2.75632 10.6652 2.93581C11.181 3.11528 11.6863 3.38195 12.1812 3.73581C12.2786 3.80931 12.3314 3.8999 12.3395 4.00759C12.3476 4.11529 12.3085 4.2123 12.2222 4.29862C12.1658 4.35503 12.0946 4.39008 12.0087 4.40376C11.9228 4.41743 11.841 4.39863 11.7632 4.34734C11.3615 4.05588 10.9269 3.82682 10.4594 3.66016C9.99185 3.49349 9.50553 3.41016 9.00041 3.41016C7.96195 3.41016 7.05619 3.70738 6.28311 4.30182C5.51003 4.89627 4.97563 5.62469 4.67989 6.48709H9.05169C9.14656 6.48709 9.22583 6.51892 9.28951 6.58259C9.35319 6.64627 9.38503 6.72554 9.38503 6.82042C9.38503 6.91529 9.35319 6.99456 9.28951 7.05824C9.22583 7.12192 9.14656 7.15376 9.05169 7.15376H4.50297C4.45511 7.31017 4.42776 7.45333 4.42092 7.58324C4.41408 7.71315 4.41066 7.85204 4.41066 7.99991C4.41066 8.14777 4.41835 8.29521 4.43374 8.44221C4.44913 8.58922 4.47221 8.72383 4.50297 8.84606H9.05169C9.14656 8.84606 9.22583 8.87789 9.28951 8.94157C9.35319 9.00525 9.38503 9.08452 9.38503 9.17939C9.38503 9.27427 9.35319 9.35354 9.28951 9.41722C9.22583 9.48089 9.14656 9.51272 9.05169 9.51272H4.69272C5.02264 10.4777 5.59336 11.2275 6.40489 11.7621C7.21644 12.2967 8.08161 12.564 9.00041 12.564C9.50297 12.564 9.98075 12.4892 10.4337 12.3397C10.8867 12.1901 11.3043 11.9867 11.6863 11.7294C11.7726 11.6781 11.8624 11.6565 11.9555 11.6647C12.0487 11.6728 12.129 11.7106 12.1966 11.7781C12.2829 11.8644 12.3177 11.9614 12.3011 12.0691C12.2844 12.1768 12.2316 12.2632 12.1427 12.3281C11.7162 12.6136 11.2387 12.8482 10.71 13.032C10.1814 13.2157 9.61152 13.3076 9.00041 13.3076Z"
+                                                fill="#112F56" />
+                                        </g>
+                                    </svg>
+                                    <span class="text-sm lg:text-base text-dark-blue">180-200 EUR</span>
+                                </div>
+
+                                <div class="flex items-center whitespace-nowrap">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="mask0_156_3891" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="0" y="0" width="16" height="16">
+                                            <rect width="16" height="16" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_156_3891)">
+                                            <path
+                                                d="M5.53885 13.3333H10.4619V11.3333C10.4619 10.5829 10.2307 9.92522 9.76833 9.36025C9.30594 8.79529 8.71663 8.51282 8.00038 8.51282C7.28414 8.51282 6.69482 8.79529 6.23243 9.36025C5.77004 9.92522 5.53885 10.5829 5.53885 11.3333V13.3333ZM8.00038 7.48718C8.71663 7.48718 9.30594 7.20471 9.76833 6.63975C10.2307 6.07478 10.4619 5.41709 10.4619 4.66667V2.66667H5.53885V4.66667C5.53885 5.41709 5.77004 6.07478 6.23243 6.63975C6.69482 7.20471 7.28414 7.48718 8.00038 7.48718ZM12.2055 14H3.79525C3.7008 14 3.62164 13.968 3.55775 13.904C3.49386 13.8401 3.46191 13.7608 3.46191 13.6662C3.46191 13.5717 3.49386 13.4925 3.55775 13.4289C3.62164 13.3652 3.7008 13.3333 3.79525 13.3333H4.87216V11.3333C4.87216 10.5615 5.08605 9.86561 5.51383 9.24552C5.94161 8.62543 6.51575 8.21026 7.23626 8C6.51575 7.78974 5.94161 7.37457 5.51383 6.75448C5.08605 6.13439 4.87216 5.43846 4.87216 4.66667V2.66667H3.79525C3.7008 2.66667 3.62164 2.63468 3.55775 2.5707C3.49386 2.50672 3.46191 2.42745 3.46191 2.33288C3.46191 2.23831 3.49386 2.15918 3.55775 2.09552C3.62164 2.03184 3.7008 2 3.79525 2H12.2055C12.3 2 12.3791 2.03199 12.443 2.09597C12.5069 2.15993 12.5388 2.23921 12.5388 2.33378C12.5388 2.42835 12.5069 2.50747 12.443 2.57115C12.3791 2.63483 12.3 2.66667 12.2055 2.66667H11.1286V4.66667C11.1286 5.43846 10.9147 6.13439 10.4869 6.75448C10.0592 7.37457 9.48501 7.78974 8.7645 8C9.48501 8.21026 10.0592 8.62543 10.4869 9.24552C10.9147 9.86561 11.1286 10.5615 11.1286 11.3333V13.3333H12.2055C12.3 13.3333 12.3791 13.3653 12.443 13.4293C12.5069 13.4933 12.5388 13.5726 12.5388 13.6671C12.5388 13.7617 12.5069 13.8408 12.443 13.9045C12.3791 13.9682 12.3 14 12.2055 14Z"
+                                                fill="#112F56" />
+                                        </g>
+                                    </svg>
+
+                                    <span class="text-sm lg:text-base text-dark-blue">2-4 d.d.</span>
+                                </div>
+                            </div>
+
+                            <button class="">
+                                <svg class="w-9 lg:w-12" viewBox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" rx="6.66667" fill="#B37A1E" />
+                                    <mask id="mask0_156_3908" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8"
+                                        y="7" width="33" height="33">
+                                        <rect x="8.40625" y="7.45345" width="32" height="32" fill="#D9D9D9" />
+                                    </mask>
+                                    <g mask="url(#mask0_156_3908)">
+                                        <path
+                                            d="M23.0059 29.0277L28.1777 23.8559C28.3076 23.726 28.4632 23.6568 28.6444 23.6482C28.8256 23.6396 28.9897 23.7089 29.1367 23.8559C29.2837 24.0029 29.3572 24.1627 29.3572 24.3354C29.3572 24.508 29.2837 24.6679 29.1367 24.8149L23.7598 30.1918C23.5444 30.4072 23.2931 30.5149 23.0059 30.5149C22.7187 30.5149 22.4675 30.4072 22.2521 30.1918L19.6752 27.6149C19.5452 27.485 19.476 27.3294 19.4675 27.1482C19.4589 26.967 19.5281 26.8029 19.6752 26.6559C19.8222 26.5089 19.982 26.4354 20.1547 26.4354C20.3273 26.4354 20.4871 26.5089 20.6341 26.6559L23.0059 29.0277ZM15.8931 35.4533C15.2794 35.4533 14.767 35.2478 14.3559 34.8367C13.9448 34.4256 13.7393 33.9132 13.7393 33.2995V16.2738C13.7393 15.6602 13.9448 15.1478 14.3559 14.7367C14.767 14.3256 15.2794 14.12 15.8931 14.12H18.2521V11.8636C18.2521 11.6568 18.32 11.4854 18.4559 11.3495C18.5918 11.2136 18.7632 11.1456 18.97 11.1456C19.1769 11.1456 19.3482 11.2136 19.4841 11.3495C19.62 11.4854 19.688 11.6568 19.688 11.8636V14.12H29.2264V11.8123C29.2264 11.6226 29.2901 11.464 29.4175 11.3367C29.5448 11.2093 29.7034 11.1456 29.8931 11.1456C30.0829 11.1456 30.2414 11.2093 30.3688 11.3367C30.4961 11.464 30.5598 11.6226 30.5598 11.8123V14.12H32.9188C33.5324 14.12 34.0448 14.3256 34.4559 14.7367C34.867 15.1478 35.0726 15.6602 35.0726 16.2738V33.2995C35.0726 33.9132 34.867 34.4256 34.4559 34.8367C34.0448 35.2478 33.5324 35.4533 32.9188 35.4533H15.8931ZM15.8931 34.12H32.9188C33.1239 34.12 33.3119 34.0345 33.4829 33.8636C33.6538 33.6926 33.7393 33.5046 33.7393 33.2995V21.6072H15.0726V33.2995C15.0726 33.5046 15.1581 33.6926 15.329 33.8636C15.4999 34.0345 15.688 34.12 15.8931 34.12ZM15.0726 20.2738H33.7393V16.2738C33.7393 16.0687 33.6538 15.8807 33.4829 15.7097C33.3119 15.5388 33.1239 15.4533 32.9188 15.4533H15.8931C15.688 15.4533 15.4999 15.5388 15.329 15.7097C15.1581 15.8807 15.0726 16.0687 15.0726 16.2738V20.2738Z"
+                                            fill="white" />
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="flex items-center justify-between space-x-2">
+                            <p class="text-sm font-light lg:text-base text-dark-blue">Padangų keitimasPadangų
+                                <br> keitimasPadangų keitimas
+                            </p>
                             <div class="">
                                 <div class="flex items-center whitespace-nowrap">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -946,12 +956,12 @@
 
 
             <div class="max-w-[883px]">
-                <div class="flex items-end space-x-3 pb-8 border-b mb-8">
+                <div class="flex items-end pb-8 mb-8 space-x-3 border-b">
                     <img src="./assets/images/profile-1.png" alt=""
                         class="w-12 h-12 lg:w-[90px] lg:h-[90px] rounded-full">
                     <div>
                         <h5 class="text-sm sm:text-base lg:text-xl text-dark-blue mb-0.5 lg:mb-1">Jonas Jonaitis</h5>
-                        <p class="text-sm sm:text-base lg:text-xl text-dark-blue font-light"><span
+                        <p class="text-sm font-light sm:text-base lg:text-xl text-dark-blue"><span
                                 class="hidden lg:inline">JS Autoserviso</span> administratorius</p>
                     </div>
                 </div>
@@ -976,11 +986,11 @@
 
                     <!-- Reviews -->
                     <div class="space-y-5 lg:space-y-8">
-                        <div class="bg-white rounded-md shadow-3 px-3 py-4 lg:p-5">
+                        <div class="px-3 py-4 bg-white rounded-md shadow-3 lg:p-5">
                             <div class="flex items-center justify-between mb-2.5 md:mb-7">
                                 <div class="flex items-center space-x-1.5 lg:space-x-3">
                                     <img src="./assets/images/profile-1.png" alt=""
-                                        class="w-8 h-8 lg:w-10 lg:h-10 rounded-full shrink-0">
+                                        class="w-8 h-8 rounded-full lg:w-10 lg:h-10 shrink-0">
                                     <div class="">
                                         <div class="flex items-center mb-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 lg:w-5" fill="none"
@@ -1058,7 +1068,7 @@
                                                 d="M3.051 10.5v.822a.35.35 0 0 1-.36.344.344.344 0 0 1-.254-.104.348.348 0 0 1-.103-.254V7.09L3.49 3.792a.376.376 0 0 1 .165-.216.5.5 0 0 1 .27-.076h6.193a.412.412 0 0 1 .39.292l1.158 3.298v4.232a.35.35 0 0 1-.36.344.344.344 0 0 1-.254-.104.348.348 0 0 1-.104-.254V10.5H3.05Zm.108-3.993h7.682l-.86-2.424H4.019L3.16 6.507Zm1.174 2.647a.621.621 0 0 0 .46-.19.635.635 0 0 0 .188-.463.621.621 0 0 0-.19-.46.634.634 0 0 0-.463-.188.621.621 0 0 0-.46.19.635.635 0 0 0-.188.463c0 .181.063.335.19.46a.635.635 0 0 0 .463.188Zm5.34 0a.621.621 0 0 0 .46-.19.635.635 0 0 0 .188-.463.621.621 0 0 0-.19-.46.634.634 0 0 0-.464-.188.621.621 0 0 0-.46.19.635.635 0 0 0-.188.463c0 .181.064.335.19.46a.635.635 0 0 0 .464.188Zm-6.756.763h8.166V7.09H2.918v2.827Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Mercedes Benz E200 (2017)</span>
+                                    <span class="font-light text-10 md:text-xs">Mercedes Benz E200 (2017)</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1073,7 +1083,7 @@
                                                 d="M9.177 10.15a.919.919 0 0 1-.344-.066.9.9 0 0 1-.302-.204L5.627 6.973a3.3 3.3 0 0 1-.569.203c-.193.05-.399.074-.616.074a2.652 2.652 0 0 1-1.948-.802A2.652 2.652 0 0 1 1.692 4.5a2.671 2.671 0 0 1 .283-1.202l1.767 1.748L4.99 3.8l-1.73-1.748a3.17 3.17 0 0 1 .568-.22c.195-.055.4-.082.615-.082.764 0 1.414.267 1.948.802.535.535.802 1.184.802 1.948 0 .23-.023.442-.069.635a2.296 2.296 0 0 1-.208.55l2.91 2.904a.896.896 0 0 1 .27.648.892.892 0 0 1-.266.643.89.89 0 0 1-.652.27Zm-.287-.621c.08.08.177.12.29.119a.399.399 0 0 0 .288-.122c.08-.08.12-.176.12-.289a.394.394 0 0 0-.12-.289l-3.172-3.17c.131-.179.23-.379.296-.6.067-.22.1-.447.1-.678 0-.609-.235-1.155-.707-1.638-.471-.483-1.076-.679-1.814-.587l1.252 1.252a.398.398 0 0 1 .121.263.329.329 0 0 1-.102.264L4.015 5.48a.371.371 0 0 1-.273.111.371.371 0 0 1-.273-.111L2.217 4.229c-.072.808.136 1.43.626 1.867.49.436 1.022.654 1.6.654.22 0 .441-.032.662-.095.221-.064.426-.163.613-.298L8.89 9.529Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Ratų montavimas</span>
+                                    <span class="font-light text-10 md:text-xs">Ratų montavimas</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1088,7 +1098,7 @@
                                                 d="M8.75 11.644a4.689 4.689 0 0 1-2.714-.854c-.828-.569-1.41-1.39-1.75-2.466h-1.93a.282.282 0 0 1-.208-.084.282.282 0 0 1-.084-.208c0-.083.028-.152.084-.208a.282.282 0 0 1 .208-.084h1.802a2.567 2.567 0 0 1-.057-.359A4.261 4.261 0 0 1 4.084 7c0-.13.002-.25.005-.365.004-.113.02-.239.046-.375H2.356a.282.282 0 0 1-.208-.084.282.282 0 0 1-.084-.208c0-.083.028-.152.084-.208a.282.282 0 0 1 .208-.084h1.907c.317-1.015.882-1.826 1.694-2.433.812-.606 1.743-.91 2.793-.91.52 0 1.006.079 1.457.236.451.157.893.39 1.326.7a.32.32 0 0 1 .14.238.316.316 0 0 1-.104.254.33.33 0 0 1-.186.092.295.295 0 0 1-.215-.049 4.515 4.515 0 0 0-1.141-.601 3.774 3.774 0 0 0-1.277-.219c-.908 0-1.7.26-2.377.78-.677.52-1.144 1.158-1.403 1.912h3.825c.083 0 .153.028.208.084a.282.282 0 0 1 .084.208.282.282 0 0 1-.084.208.282.282 0 0 1-.208.084h-3.98a1.579 1.579 0 0 0-.072.375A6.948 6.948 0 0 0 4.734 7c0 .13.007.258.02.387.014.129.034.246.061.353h3.98c.083 0 .153.028.208.084a.282.282 0 0 1 .084.208.282.282 0 0 1-.084.208.282.282 0 0 1-.208.084H4.981c.289.844.788 1.5 1.498 1.968.71.468 1.467.702 2.271.702.44 0 .858-.066 1.255-.197.396-.13.761-.309 1.095-.534a.386.386 0 0 1 .236-.056.33.33 0 0 1 .211.099c.075.075.106.16.091.255a.334.334 0 0 1-.138.226c-.373.25-.791.455-1.254.616-.462.16-.96.241-1.496.241Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">180 EUR</span>
+                                    <span class="font-light text-10 md:text-xs">180 EUR</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1103,11 +1113,11 @@
                                                 d="M4.846 11.677h4.307V9.935c0-.654-.202-1.227-.607-1.72-.404-.491-.92-.737-1.547-.737-.626 0-1.142.246-1.546.738a2.626 2.626 0 0 0-.607 1.719v1.742Zm2.153-5.093c.627 0 1.143-.246 1.547-.738a2.626 2.626 0 0 0 .607-1.719V2.385H4.846v1.742c0 .654.202 1.227.607 1.719.404.492.92.738 1.546.738Zm3.68 5.674H3.32a.283.283 0 0 1-.208-.084.28.28 0 0 1-.084-.207.283.283 0 0 1 .292-.29h.942V9.935c0-.673.187-1.279.562-1.82.374-.54.876-.9 1.507-1.084a2.699 2.699 0 0 1-1.507-1.085 3.12 3.12 0 0 1-.562-1.819V2.385H3.32a.283.283 0 0 1-.208-.084.28.28 0 0 1-.084-.207.283.283 0 0 1 .292-.29h7.359c.083 0 .152.028.208.084a.28.28 0 0 1 .084.207.283.283 0 0 1-.292.29h-.942v1.742a3.12 3.12 0 0 1-.562 1.819c-.374.54-.876.902-1.507 1.085.63.183 1.133.545 1.507 1.085a3.12 3.12 0 0 1 .562 1.819v1.742h.942c.083 0 .152.028.208.084a.28.28 0 0 1 .084.207.283.283 0 0 1-.292.29Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Trukmė 2 d. d.</span>
+                                    <span class="font-light text-10 md:text-xs">Trukmė 2 d. d.</span>
                                 </div>
                             </div>
 
-                            <p class="text-xs sm:text-sm lg:text-base mb-4 lg:mb-5">Oskaras mldc, labai kruopščiai
+                            <p class="mb-4 text-xs sm:text-sm lg:text-base lg:mb-5">Oskaras mldc, labai kruopščiai
                                 tepalus pakeitė.
                                 10/10. Oskaras mldc, labai kruopščiai tepalus pakeitė. 10/10Oskaras mldc, labai
                                 kruopščiai tepalus pakeitė. 10/10 Oskaras mldc, labai kruopščiai tepalus pakeitė.
@@ -1134,11 +1144,11 @@
                             </div>
                         </div>
 
-                        <div class="bg-white rounded-md shadow-3 px-3 py-4 lg:p-5">
+                        <div class="px-3 py-4 bg-white rounded-md shadow-3 lg:p-5">
                             <div class="flex items-center justify-between mb-2.5 md:mb-7">
                                 <div class="flex items-center space-x-1.5 lg:space-x-3">
                                     <img src="./assets/images/profile-1.png" alt=""
-                                        class="w-8 h-8 lg:w-10 lg:h-10 rounded-full shrink-0">
+                                        class="w-8 h-8 rounded-full lg:w-10 lg:h-10 shrink-0">
                                     <div class="">
                                         <div class="flex items-center mb-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 lg:w-5" fill="none"
@@ -1216,7 +1226,7 @@
                                                 d="M3.051 10.5v.822a.35.35 0 0 1-.36.344.344.344 0 0 1-.254-.104.348.348 0 0 1-.103-.254V7.09L3.49 3.792a.376.376 0 0 1 .165-.216.5.5 0 0 1 .27-.076h6.193a.412.412 0 0 1 .39.292l1.158 3.298v4.232a.35.35 0 0 1-.36.344.344.344 0 0 1-.254-.104.348.348 0 0 1-.104-.254V10.5H3.05Zm.108-3.993h7.682l-.86-2.424H4.019L3.16 6.507Zm1.174 2.647a.621.621 0 0 0 .46-.19.635.635 0 0 0 .188-.463.621.621 0 0 0-.19-.46.634.634 0 0 0-.463-.188.621.621 0 0 0-.46.19.635.635 0 0 0-.188.463c0 .181.063.335.19.46a.635.635 0 0 0 .463.188Zm5.34 0a.621.621 0 0 0 .46-.19.635.635 0 0 0 .188-.463.621.621 0 0 0-.19-.46.634.634 0 0 0-.464-.188.621.621 0 0 0-.46.19.635.635 0 0 0-.188.463c0 .181.064.335.19.46a.635.635 0 0 0 .464.188Zm-6.756.763h8.166V7.09H2.918v2.827Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Mercedes Benz E200 (2017)</span>
+                                    <span class="font-light text-10 md:text-xs">Mercedes Benz E200 (2017)</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1231,7 +1241,7 @@
                                                 d="M9.177 10.15a.919.919 0 0 1-.344-.066.9.9 0 0 1-.302-.204L5.627 6.973a3.3 3.3 0 0 1-.569.203c-.193.05-.399.074-.616.074a2.652 2.652 0 0 1-1.948-.802A2.652 2.652 0 0 1 1.692 4.5a2.671 2.671 0 0 1 .283-1.202l1.767 1.748L4.99 3.8l-1.73-1.748a3.17 3.17 0 0 1 .568-.22c.195-.055.4-.082.615-.082.764 0 1.414.267 1.948.802.535.535.802 1.184.802 1.948 0 .23-.023.442-.069.635a2.296 2.296 0 0 1-.208.55l2.91 2.904a.896.896 0 0 1 .27.648.892.892 0 0 1-.266.643.89.89 0 0 1-.652.27Zm-.287-.621c.08.08.177.12.29.119a.399.399 0 0 0 .288-.122c.08-.08.12-.176.12-.289a.394.394 0 0 0-.12-.289l-3.172-3.17c.131-.179.23-.379.296-.6.067-.22.1-.447.1-.678 0-.609-.235-1.155-.707-1.638-.471-.483-1.076-.679-1.814-.587l1.252 1.252a.398.398 0 0 1 .121.263.329.329 0 0 1-.102.264L4.015 5.48a.371.371 0 0 1-.273.111.371.371 0 0 1-.273-.111L2.217 4.229c-.072.808.136 1.43.626 1.867.49.436 1.022.654 1.6.654.22 0 .441-.032.662-.095.221-.064.426-.163.613-.298L8.89 9.529Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Ratų montavimas</span>
+                                    <span class="font-light text-10 md:text-xs">Ratų montavimas</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1246,7 +1256,7 @@
                                                 d="M8.75 11.644a4.689 4.689 0 0 1-2.714-.854c-.828-.569-1.41-1.39-1.75-2.466h-1.93a.282.282 0 0 1-.208-.084.282.282 0 0 1-.084-.208c0-.083.028-.152.084-.208a.282.282 0 0 1 .208-.084h1.802a2.567 2.567 0 0 1-.057-.359A4.261 4.261 0 0 1 4.084 7c0-.13.002-.25.005-.365.004-.113.02-.239.046-.375H2.356a.282.282 0 0 1-.208-.084.282.282 0 0 1-.084-.208c0-.083.028-.152.084-.208a.282.282 0 0 1 .208-.084h1.907c.317-1.015.882-1.826 1.694-2.433.812-.606 1.743-.91 2.793-.91.52 0 1.006.079 1.457.236.451.157.893.39 1.326.7a.32.32 0 0 1 .14.238.316.316 0 0 1-.104.254.33.33 0 0 1-.186.092.295.295 0 0 1-.215-.049 4.515 4.515 0 0 0-1.141-.601 3.774 3.774 0 0 0-1.277-.219c-.908 0-1.7.26-2.377.78-.677.52-1.144 1.158-1.403 1.912h3.825c.083 0 .153.028.208.084a.282.282 0 0 1 .084.208.282.282 0 0 1-.084.208.282.282 0 0 1-.208.084h-3.98a1.579 1.579 0 0 0-.072.375A6.948 6.948 0 0 0 4.734 7c0 .13.007.258.02.387.014.129.034.246.061.353h3.98c.083 0 .153.028.208.084a.282.282 0 0 1 .084.208.282.282 0 0 1-.084.208.282.282 0 0 1-.208.084H4.981c.289.844.788 1.5 1.498 1.968.71.468 1.467.702 2.271.702.44 0 .858-.066 1.255-.197.396-.13.761-.309 1.095-.534a.386.386 0 0 1 .236-.056.33.33 0 0 1 .211.099c.075.075.106.16.091.255a.334.334 0 0 1-.138.226c-.373.25-.791.455-1.254.616-.462.16-.96.241-1.496.241Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">180 EUR</span>
+                                    <span class="font-light text-10 md:text-xs">180 EUR</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1261,11 +1271,11 @@
                                                 d="M4.846 11.677h4.307V9.935c0-.654-.202-1.227-.607-1.72-.404-.491-.92-.737-1.547-.737-.626 0-1.142.246-1.546.738a2.626 2.626 0 0 0-.607 1.719v1.742Zm2.153-5.093c.627 0 1.143-.246 1.547-.738a2.626 2.626 0 0 0 .607-1.719V2.385H4.846v1.742c0 .654.202 1.227.607 1.719.404.492.92.738 1.546.738Zm3.68 5.674H3.32a.283.283 0 0 1-.208-.084.28.28 0 0 1-.084-.207.283.283 0 0 1 .292-.29h.942V9.935c0-.673.187-1.279.562-1.82.374-.54.876-.9 1.507-1.084a2.699 2.699 0 0 1-1.507-1.085 3.12 3.12 0 0 1-.562-1.819V2.385H3.32a.283.283 0 0 1-.208-.084.28.28 0 0 1-.084-.207.283.283 0 0 1 .292-.29h7.359c.083 0 .152.028.208.084a.28.28 0 0 1 .084.207.283.283 0 0 1-.292.29h-.942v1.742a3.12 3.12 0 0 1-.562 1.819c-.374.54-.876.902-1.507 1.085.63.183 1.133.545 1.507 1.085a3.12 3.12 0 0 1 .562 1.819v1.742h.942c.083 0 .152.028.208.084a.28.28 0 0 1 .084.207.283.283 0 0 1-.292.29Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Trukmė 2 d. d.</span>
+                                    <span class="font-light text-10 md:text-xs">Trukmė 2 d. d.</span>
                                 </div>
                             </div>
 
-                            <p class="text-xs sm:text-sm lg:text-base mb-4 lg:mb-5">Oskaras mldc, labai kruopščiai
+                            <p class="mb-4 text-xs sm:text-sm lg:text-base lg:mb-5">Oskaras mldc, labai kruopščiai
                                 tepalus pakeitė.
                                 10/10. Oskaras mldc, labai kruopščiai tepalus pakeitė. 10/10Oskaras mldc, labai
                                 kruopščiai tepalus pakeitė. 10/10 Oskaras mldc, labai kruopščiai tepalus pakeitė.
@@ -1292,11 +1302,11 @@
                             </div>
                         </div>
 
-                        <div class="bg-white rounded-md shadow-3 px-3 py-4 lg:p-5">
+                        <div class="px-3 py-4 bg-white rounded-md shadow-3 lg:p-5">
                             <div class="flex items-center justify-between mb-2.5 md:mb-7">
                                 <div class="flex items-center space-x-1.5 lg:space-x-3">
                                     <img src="./assets/images/profile-1.png" alt=""
-                                        class="w-8 h-8 lg:w-10 lg:h-10 rounded-full shrink-0">
+                                        class="w-8 h-8 rounded-full lg:w-10 lg:h-10 shrink-0">
                                     <div class="">
                                         <div class="flex items-center mb-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 lg:w-5" fill="none"
@@ -1374,7 +1384,7 @@
                                                 d="M3.051 10.5v.822a.35.35 0 0 1-.36.344.344.344 0 0 1-.254-.104.348.348 0 0 1-.103-.254V7.09L3.49 3.792a.376.376 0 0 1 .165-.216.5.5 0 0 1 .27-.076h6.193a.412.412 0 0 1 .39.292l1.158 3.298v4.232a.35.35 0 0 1-.36.344.344.344 0 0 1-.254-.104.348.348 0 0 1-.104-.254V10.5H3.05Zm.108-3.993h7.682l-.86-2.424H4.019L3.16 6.507Zm1.174 2.647a.621.621 0 0 0 .46-.19.635.635 0 0 0 .188-.463.621.621 0 0 0-.19-.46.634.634 0 0 0-.463-.188.621.621 0 0 0-.46.19.635.635 0 0 0-.188.463c0 .181.063.335.19.46a.635.635 0 0 0 .463.188Zm5.34 0a.621.621 0 0 0 .46-.19.635.635 0 0 0 .188-.463.621.621 0 0 0-.19-.46.634.634 0 0 0-.464-.188.621.621 0 0 0-.46.19.635.635 0 0 0-.188.463c0 .181.064.335.19.46a.635.635 0 0 0 .464.188Zm-6.756.763h8.166V7.09H2.918v2.827Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Mercedes Benz E200 (2017)</span>
+                                    <span class="font-light text-10 md:text-xs">Mercedes Benz E200 (2017)</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1389,7 +1399,7 @@
                                                 d="M9.177 10.15a.919.919 0 0 1-.344-.066.9.9 0 0 1-.302-.204L5.627 6.973a3.3 3.3 0 0 1-.569.203c-.193.05-.399.074-.616.074a2.652 2.652 0 0 1-1.948-.802A2.652 2.652 0 0 1 1.692 4.5a2.671 2.671 0 0 1 .283-1.202l1.767 1.748L4.99 3.8l-1.73-1.748a3.17 3.17 0 0 1 .568-.22c.195-.055.4-.082.615-.082.764 0 1.414.267 1.948.802.535.535.802 1.184.802 1.948 0 .23-.023.442-.069.635a2.296 2.296 0 0 1-.208.55l2.91 2.904a.896.896 0 0 1 .27.648.892.892 0 0 1-.266.643.89.89 0 0 1-.652.27Zm-.287-.621c.08.08.177.12.29.119a.399.399 0 0 0 .288-.122c.08-.08.12-.176.12-.289a.394.394 0 0 0-.12-.289l-3.172-3.17c.131-.179.23-.379.296-.6.067-.22.1-.447.1-.678 0-.609-.235-1.155-.707-1.638-.471-.483-1.076-.679-1.814-.587l1.252 1.252a.398.398 0 0 1 .121.263.329.329 0 0 1-.102.264L4.015 5.48a.371.371 0 0 1-.273.111.371.371 0 0 1-.273-.111L2.217 4.229c-.072.808.136 1.43.626 1.867.49.436 1.022.654 1.6.654.22 0 .441-.032.662-.095.221-.064.426-.163.613-.298L8.89 9.529Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Ratų montavimas</span>
+                                    <span class="font-light text-10 md:text-xs">Ratų montavimas</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1404,7 +1414,7 @@
                                                 d="M8.75 11.644a4.689 4.689 0 0 1-2.714-.854c-.828-.569-1.41-1.39-1.75-2.466h-1.93a.282.282 0 0 1-.208-.084.282.282 0 0 1-.084-.208c0-.083.028-.152.084-.208a.282.282 0 0 1 .208-.084h1.802a2.567 2.567 0 0 1-.057-.359A4.261 4.261 0 0 1 4.084 7c0-.13.002-.25.005-.365.004-.113.02-.239.046-.375H2.356a.282.282 0 0 1-.208-.084.282.282 0 0 1-.084-.208c0-.083.028-.152.084-.208a.282.282 0 0 1 .208-.084h1.907c.317-1.015.882-1.826 1.694-2.433.812-.606 1.743-.91 2.793-.91.52 0 1.006.079 1.457.236.451.157.893.39 1.326.7a.32.32 0 0 1 .14.238.316.316 0 0 1-.104.254.33.33 0 0 1-.186.092.295.295 0 0 1-.215-.049 4.515 4.515 0 0 0-1.141-.601 3.774 3.774 0 0 0-1.277-.219c-.908 0-1.7.26-2.377.78-.677.52-1.144 1.158-1.403 1.912h3.825c.083 0 .153.028.208.084a.282.282 0 0 1 .084.208.282.282 0 0 1-.084.208.282.282 0 0 1-.208.084h-3.98a1.579 1.579 0 0 0-.072.375A6.948 6.948 0 0 0 4.734 7c0 .13.007.258.02.387.014.129.034.246.061.353h3.98c.083 0 .153.028.208.084a.282.282 0 0 1 .084.208.282.282 0 0 1-.084.208.282.282 0 0 1-.208.084H4.981c.289.844.788 1.5 1.498 1.968.71.468 1.467.702 2.271.702.44 0 .858-.066 1.255-.197.396-.13.761-.309 1.095-.534a.386.386 0 0 1 .236-.056.33.33 0 0 1 .211.099c.075.075.106.16.091.255a.334.334 0 0 1-.138.226c-.373.25-.791.455-1.254.616-.462.16-.96.241-1.496.241Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">180 EUR</span>
+                                    <span class="font-light text-10 md:text-xs">180 EUR</span>
                                 </div>
 
                                 <div class="flex items-center">
@@ -1419,11 +1429,11 @@
                                                 d="M4.846 11.677h4.307V9.935c0-.654-.202-1.227-.607-1.72-.404-.491-.92-.737-1.547-.737-.626 0-1.142.246-1.546.738a2.626 2.626 0 0 0-.607 1.719v1.742Zm2.153-5.093c.627 0 1.143-.246 1.547-.738a2.626 2.626 0 0 0 .607-1.719V2.385H4.846v1.742c0 .654.202 1.227.607 1.719.404.492.92.738 1.546.738Zm3.68 5.674H3.32a.283.283 0 0 1-.208-.084.28.28 0 0 1-.084-.207.283.283 0 0 1 .292-.29h.942V9.935c0-.673.187-1.279.562-1.82.374-.54.876-.9 1.507-1.084a2.699 2.699 0 0 1-1.507-1.085 3.12 3.12 0 0 1-.562-1.819V2.385H3.32a.283.283 0 0 1-.208-.084.28.28 0 0 1-.084-.207.283.283 0 0 1 .292-.29h7.359c.083 0 .152.028.208.084a.28.28 0 0 1 .084.207.283.283 0 0 1-.292.29h-.942v1.742a3.12 3.12 0 0 1-.562 1.819c-.374.54-.876.902-1.507 1.085.63.183 1.133.545 1.507 1.085a3.12 3.12 0 0 1 .562 1.819v1.742h.942c.083 0 .152.028.208.084a.28.28 0 0 1 .084.207.283.283 0 0 1-.292.29Z" />
                                         </g>
                                     </svg>
-                                    <span class="text-10 md:text-xs font-light">Trukmė 2 d. d.</span>
+                                    <span class="font-light text-10 md:text-xs">Trukmė 2 d. d.</span>
                                 </div>
                             </div>
 
-                            <p class="text-xs sm:text-sm lg:text-base mb-4 lg:mb-5">Oskaras mldc, labai kruopščiai
+                            <p class="mb-4 text-xs sm:text-sm lg:text-base lg:mb-5">Oskaras mldc, labai kruopščiai
                                 tepalus pakeitė.
                                 10/10. Oskaras mldc, labai kruopščiai tepalus pakeitė. 10/10Oskaras mldc, labai
                                 kruopščiai tepalus pakeitė. 10/10 Oskaras mldc, labai kruopščiai tepalus pakeitė.
@@ -1462,11 +1472,11 @@
 
     <!-- Footer Start -->
     <footer>
-        <div class="bg-grey/10 py-4 lg:pt-5 lg:pb-3">
-            <div class="container max-w-1360 px-4 lg:px-5">
-                <div class="flex justify-between items-center lg:flex-col lg:items-start gap-8">
-                    <h5 class="hidden lg:block text-xl text-dark-blue">Apie autocheck</h5>
-                    <h5 class="lg:hidden text-sm sm:text-lg text-dark-blue">Apie</h5>
+        <div class="py-4 bg-grey/10 lg:pt-5 lg:pb-3">
+            <div class="container px-4 max-w-1360 lg:px-5">
+                <div class="flex items-center justify-between gap-8 lg:flex-col lg:items-start">
+                    <h5 class="hidden text-xl lg:block text-dark-blue">Apie autocheck</h5>
+                    <h5 class="text-sm lg:hidden sm:text-lg text-dark-blue">Apie</h5>
 
                     <div class="flex items-center space-x-1.5 lg:space-x-3">
                         <a href="#" class="inline-block">
@@ -1491,18 +1501,16 @@
                     autocheck., 2023</p>
             </div>
         </div>
-
-
-        <div class="lg:hidden space-y-4 px-4 py-6">
-            <a href="#"
-                class="text-base text-white font-medium bg-complementary px-14 py-2 rounded-md block w-full text-center tracking-[0.5px]">Rezervuoti</a>
-            <a href="#"
-                class="text-base text-complementary px-9 rounded-md  block w-full text-center tracking-[0.5px]">Teikti
-                užklausą</a>
-        </div>
-
     </footer>
     <!-- Footer End -->
+
+    <div class="sticky inset-x-0 bottom-0 z-20 px-4 py-6 space-y-4 bg-white lg:hidden">
+        <a href="#"
+            class="text-base text-white font-medium bg-complementary px-14 py-2 rounded-md block w-full text-center tracking-[0.5px]">Rezervuoti</a>
+        <a href="#"
+            class="text-base text-complementary px-9 rounded-md  block w-full text-center tracking-[0.5px]">Teikti
+            užklausą</a>
+    </div>
 </body>
 
 </html>

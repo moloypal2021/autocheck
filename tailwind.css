@@ -11,3 +11,15 @@
     @apply border-dark-gray/50;
   }
 }
+
+/* Chrome, Safari, Edge, Opera */
+.hide-input-arrow::-webkit-outer-spin-button,
+.hide-input-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.hide-input-arrow {
+  -moz-appearance: textfield;
+}

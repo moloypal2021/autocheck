@@ -568,6 +568,10 @@ input{
   }
 }
 
+.pointer-events-none{
+  pointer-events: none;
+}
+
 .fixed{
   position: fixed;
 }
@@ -580,8 +584,21 @@ input{
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
 .inset-0{
   inset: 0px;
+}
+
+.inset-x-0{
+  left: 0px;
+  right: 0px;
+}
+
+.bottom-0{
+  bottom: 0px;
 }
 
 .bottom-3{
@@ -610,6 +627,10 @@ input{
 
 .z-10{
   z-index: 10;
+}
+
+.z-20{
+  z-index: 20;
 }
 
 .order-1{
@@ -800,10 +821,6 @@ input{
   min-height: calc(100vh - 215px);
 }
 
-.min-h-screen{
-  min-height: 100vh;
-}
-
 .min-h-\[calc\(100vh-56px\)\]{
   min-height: calc(100vh - 56px);
 }
@@ -840,6 +857,10 @@ input{
   width: 1.25rem;
 }
 
+.w-7{
+  width: 1.75rem;
+}
+
 .w-8{
   width: 2rem;
 }
@@ -866,10 +887,6 @@ input{
 
 .w-full{
   width: 100%;
-}
-
-.w-7{
-  width: 1.75rem;
 }
 
 .max-w-1360{
@@ -1026,6 +1043,12 @@ input{
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1036,12 +1059,6 @@ input{
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-y-auto{
@@ -1071,15 +1088,6 @@ input{
 .border-complementary{
   --tw-border-opacity: 1;
   border-color: rgb(179 122 30 / var(--tw-border-opacity));
-}
-
-.border-gray-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
-.border-dark-gray\/70{
-  border-color: rgb(114 114 114 / 0.7);
 }
 
 .border-dark-gray\/50{
@@ -1165,6 +1173,11 @@ input{
   padding-bottom: 0.625rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1178,11 +1191,6 @@ input{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 .pb-0{
@@ -1328,6 +1336,20 @@ input{
 
 .duration-300{
   transition-duration: 300ms;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+.hide-input-arrow::-webkit-outer-spin-button,
+.hide-input-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+.hide-input-arrow {
+  -moz-appearance: textfield;
 }
 
 .focus-within\:ring-dark-gray:focus-within{
@@ -1578,12 +1600,12 @@ input{
     height: 90px;
   }
 
-  .lg\:min-h-\[calc\(100vh-176px\)\]{
-    min-height: calc(100vh - 176px);
-  }
-
   .lg\:min-h-\[782px\]{
     min-height: 782px;
+  }
+
+  .lg\:min-h-\[calc\(100vh-176px\)\]{
+    min-height: calc(100vh - 176px);
   }
 
   .lg\:w-10{
@@ -1743,6 +1765,11 @@ input{
     padding-top: 1.25rem;
   }
 
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1773,11 +1800,6 @@ input{
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:font-normal{
