@@ -9,9 +9,21 @@ module.exports = {
         complementary: "#B37A1E",
         grey: "#565659",
         orange: {
+          1: "#F2541B",
           2: "#C83C2A",
         },
         "dark-gray": "#727272",
+        graytext: "#757575",
+        blue: {
+          1: "#072D8E",
+          2: "#526EB6",
+        },
+        dark: {
+          1: "#1C1B1F",
+        },
+        yellow: {
+          1: "#F4AA02",
+        },
       },
       maxWidth: {
         1360: "1360px",
@@ -21,6 +33,7 @@ module.exports = {
       },
       fontSize: {
         10: "10px",
+        15: "15px",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
@@ -32,5 +45,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/forms")({
+      strategy: "class", // only generate classes
+    }),
+  ],
 };
