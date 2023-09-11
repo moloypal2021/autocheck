@@ -11,7 +11,7 @@
 <body>
 
     <!-- Header Sectopm Start -->
-    <header class="sticky inset-x-0 top-0 z-50 bg-white border-b pt-7 md:pt-7 md:pb-3.5 border-black/20">
+    <header class="sticky inset-x-0 top-0 z-50 bg-white border-b pt-7 md:pt-7 border-black/20">
         <div class="container px-4 mx-auto lg:max-w-5xl">
             <div class="">
                 <a href="#" class="inline-block">
@@ -21,7 +21,7 @@
         </div>
         <div class="border-t lg:border-0 border-black/20">
             <div class="container px-4 mx-auto lg:max-w-5xl ">
-                <nav class="py-4 overflow-x-auto ">
+                <nav class="py-4 overflow-x-auto lg:pb-7 ">
                     <ul class="flex items-center justify-between gap-6">
                         <li><a href="#"
                                 class="text-xs sm:text-sm lg:text-15 text-graytext whitespace-nowrap">VARIKLIS</a>
@@ -314,7 +314,7 @@
     <!-- Product Details Section End -->
 
     <!-- Paslaugos Section Start -->
-    <section class="">
+    <section class="mb-[30px] md:mb-[60px] sm:mb-12">
         <div class="container px-4 mx-auto lg:max-w-5xl mb-5 lg:mb-[30px]">
             <h4 class="text-lg font-semibold sm:text-xl md:text-2xl text-dark-1">Paslaugos</h4>
         </div>
@@ -690,6 +690,94 @@
         </div>
     </section>
     <!-- Paslaugos Section End -->
+
+
+    <!-- Vieta Section Start -->
+    <section class="container px-4 mx-auto lg:max-w-5xl sm:mb-12 lg:mb-20">
+        <h4 class="mb-5 text-lg font-semibold sm:text-xl md:text-2xl text-dark-1 md:mb-10">Vieta</h4>
+
+        <div class="grid lg:grid-cols-2 bg-grey/[0.04] -mx-4 sm:mx-0">
+            <div class="">
+                <img src="./assets/images/map.png" alt="" class="w-full h-full aspect-[16/12] object-cover ">
+            </div>
+            <div class="px-4 py-5 sm:p-5">
+                <h5 class="mb-1 text-base font-medium sm:text-lg md:text-xl text-dark-1 md:mb-2">JS Autoservisas</h5>
+                <div class="flex items-center space-x-1 mb-5 sm:mb-12 md:mb-[70px]">
+                    <svg class="w-[18px] md:w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_709_30126" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="24" height="24">
+                            <rect width="24" height="24" fill="#D9D9D9" />
+                        </mask>
+                        <g mask="url(#mask0_709_30126)">
+                            <path
+                                d="M12.0002 20.9403C11.8053 20.9403 11.6105 20.9067 11.4156 20.8394C11.2207 20.7721 11.0444 20.6679 10.8867 20.5269C9.98933 19.7 9.1496 18.8484 8.36755 17.9721C7.5855 17.0958 6.90569 16.2199 6.32812 15.3442C5.75056 14.4686 5.29351 13.6006 4.95697 12.7404C4.62042 11.8801 4.45215 11.0493 4.45215 10.2481C4.45215 7.94038 5.19862 6.07213 6.69157 4.64328C8.18451 3.21443 9.95405 2.5 12.0002 2.5C14.0463 2.5 15.8159 3.21443 17.3088 4.64328C18.8018 6.07213 19.5482 7.94038 19.5482 10.2481C19.5482 11.0493 19.38 11.8785 19.0434 12.7356C18.7069 13.5926 18.2514 14.4606 17.6771 15.3394C17.1027 16.2183 16.4245 17.0942 15.6425 17.9673C14.8604 18.8404 14.0207 19.6903 13.1232 20.5173C12.9679 20.6583 12.7913 20.7641 12.5935 20.8346C12.3957 20.9051 12.198 20.9403 12.0002 20.9403ZM12.0019 11.8654C12.4995 11.8654 12.9249 11.6882 13.2781 11.3339C13.6313 10.9795 13.8079 10.5536 13.8079 10.056C13.8079 9.55839 13.6307 9.133 13.2764 8.7798C12.922 8.4266 12.4961 8.25 11.9985 8.25C11.5009 8.25 11.0755 8.42717 10.7223 8.7815C10.3691 9.13583 10.1925 9.56179 10.1925 10.0594C10.1925 10.557 10.3697 10.9824 10.724 11.3356C11.0784 11.6888 11.5043 11.8654 12.0019 11.8654Z"
+                                fill="#F2541B" />
+                        </g>
+                    </svg>
+                    <p class="text-base sm:text-lg md:text-xl text-grey/70">Eišiškių pl. 26B, Vilnius </p>
+                </div>
+
+                <div class="space-y-2 md:space-y-3">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Pirmadienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">08:00 - 20:00</span>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Antradienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">08:00 - 20:00</span>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Trečiadienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">08:00 - 20:00</span>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Ketvirtadienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">08:00 - 20:00</span>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Penktadienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">08:00 - 20:00</span>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-green-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Šeštadienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">08:00 - 16:00</span>
+                    </div>
+
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-red-1 shrink-0"></span>
+                            <span class="text-sm sm:text-base text-dark-1">Sekmadienis</span>
+                        </div>
+                        <span class="text-sm sm:text-base text-dark-1">Nedirba</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Vieta Section End -->
 
     <!-- Footer Section Start -->
     <footer class="border-t border-black/20">

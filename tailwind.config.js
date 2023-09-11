@@ -24,6 +24,12 @@ module.exports = {
         yellow: {
           1: "#F4AA02",
         },
+        green: {
+          1: "#32970E",
+        },
+        red: {
+          1: "#DF3C3C",
+        },
       },
       maxWidth: {
         1360: "1360px",
